@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Sabah Mamajiwala - Contact</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora&family=Merriweather&family=Special+Elite&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid px-5">
+        <a class="navbar-brand" href="index.html">Sabah Portfolio</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navLinks"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navLinks">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="portfolio.html" class="nav-link">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a href="contact.html" class="nav-link active">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="contact-wrapper">
+      <h2>Contact Me</h2>
+      <p class="contact-intro">
+        If you want to contact me, please fill out the form below or email me at
+        <a href="mailto:mamajiwalasabah@gmail.com">mamajiwalasabah@gmail.com</a
+        >.
+      </p>
+
+      <form>
+        <label for="name">Name</label>
+        <input id="name" type="text" placeholder="Your full name" required />
+
+        <label for="email">Email</label>
+        <input
+          id="email"
+          type="email"
+          placeholder="name@example.com"
+          required
+        />
+
+        <label for="message">Message</label>
+        <textarea
+          id="message"
+          rows="4"
+          placeholder="Type your message..."
+          required
+        ></textarea>
+
+        <button type="submit"><i class="bi bi-send"></i> Send</button>
+      </form>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
